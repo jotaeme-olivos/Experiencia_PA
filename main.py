@@ -1,5 +1,5 @@
 from juegos.adivinar_numero import adivinar_numero
-from juegos.cachipun import cachipun
+from juegos.cachipun_1 import cachipun
 from juegos.memoria import memoria
 from juegos.juego_del_dado import juego_del_dado
 from juegos.adivinar_par_o_impar import adivinar_par_o_impar
