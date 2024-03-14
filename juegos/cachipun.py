@@ -1,41 +1,31 @@
-import random
-    
 def cachipun():
-<<<<<<< HEAD
     import random
     posibilidades = ["piedra", "papel", "tijera"]
     jugada_1 = input("cual es tu movimiento? ")
-=======
-    posibilidades = ["piedra", "papel", "tijera"]
-    jugada_1 = input(f"Ingresa tu elección: ")
->>>>>>> 40b6a4441f4dbb3a33cc70461142ad04a515a800
     indice = random.randint(0,2)
     jugada_pc = posibilidades[indice]
     if jugada_1 == "piedra":
         if jugada_pc == "papel":
-            return "PERDISTE"
+            print("PERDISTE")
         if jugada_pc == "tijera":
-            return "GANASTE"
+            print("GANASTE")
         if jugada_pc == "piedra":
-            return "EMPATE"
+            print("EMPATE")
         
     elif jugada_1 == "papel":
         if jugada_pc == "papel":
-            return "EMPATE"
+            print("EMPATE")
         if jugada_pc == "tijera":
-            return "PERDISTE"
+            print("PERDISTE")
         if jugada_pc == "piedra":
-            return "GANASTE"
+            print("GANASTE")
         
     elif jugada_1 == "tijera":
         if jugada_pc == "papel":
-            return "GANASTE"
+            print("GANASTE")
         if jugada_pc == "tijera":
-            return "EMPATE"
+            print("EMPATE")
         if jugada_pc == "piedra":
-            return "PERDISTE"
-<<<<<<< HEAD
+            print("PERDISTE")
 
 
-=======
->>>>>>> 40b6a4441f4dbb3a33cc70461142ad04a515a800
