@@ -24,4 +24,3 @@ def juego_del_dado():
         print("PERDISTE :(, puntuacion pc", puntuacion_pc, "tu puntuacion", puntuacion_usuario)
     pass
 
-juego_del_dado()

@@ -13,5 +13,3 @@ def adivinar_numero():
     else:
 
         print('Te equivocaste, el numero era' , Random)
-
-adivinar_numero() 
